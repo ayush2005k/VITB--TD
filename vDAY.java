@@ -1,11 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
-
-// This is the class that contains the main method and matches the file name.
 public class vDAY {
 
-    // The Solution class for the actual romanToInt logic.
-    // It is not 'public' because 'vDAY' is the public class in this file.
     static class Solution {
         public int romanToInt(String s) {
             Map<Character, Integer> romanMap = new HashMap<>();
@@ -37,9 +33,8 @@ public class vDAY {
         }
     }
 
-    // The main method to run and test the Roman numeral conversion.
     public static void main(String[] args) {
-        Solution converter = new Solution(); // Create an instance of your Solution class
+        Solution converter = new Solution();
 
         System.out.println("III -> " + converter.romanToInt("III"));
         System.out.println("LVIII -> " + converter.romanToInt("LVIII"));
