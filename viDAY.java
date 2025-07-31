@@ -1,9 +1,9 @@
-import java.util.Stack; // Essential for this problem
+import java.util.Stack; 
 
-class Solution { // Typically, competitive programming platforms expect the solution within a 'Solution' class
+class Solution { 
 
     public boolean isValid(String s) {
-        // A stack to keep track of open brackets
+      
         Stack<Character> stack = new Stack<>();
 
         // Iterate over each character in the input string 's'
