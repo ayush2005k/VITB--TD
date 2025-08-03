@@ -28,3 +28,4 @@ class iiD {
         System.out.println("Output for n = " + n + ": " + solution.fizzBuzz(n));
     }
 }
+
