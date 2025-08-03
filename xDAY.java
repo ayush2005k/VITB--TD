@@ -23,9 +23,9 @@ public class xDAY {
                 advancingParticipants++;
             }
         }
-
         System.out.println(advancingParticipants);
 
         scanner.close();
     }
+
 }
