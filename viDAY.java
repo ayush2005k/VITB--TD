@@ -3,7 +3,6 @@ import java.util.Stack;
 class Solution { 
 
     public boolean isValid(String s) {
-      
         Stack<Character> stack = new Stack<>();
 
         // Iterate over each character in the input string 's'
@@ -64,3 +63,4 @@ class Solution {
         System.out.println("\"]\": " + sol.isValid("]"));           // false
     }
 }
+
