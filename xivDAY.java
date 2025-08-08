@@ -14,4 +14,5 @@ public class xivDAY {
         
         scanner.close();
     }
+
 }
